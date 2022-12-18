@@ -10,7 +10,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["imgur.com","github.com"],
+    domains: ["imgur.com","github.com","img.icons8.com","seeklogo.com"],
   },
   experimental: { esmExternals: true },
 };
