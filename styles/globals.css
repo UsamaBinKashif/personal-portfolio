@@ -1,26 +1,35 @@
-html,
-body {
-  padding: 0;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::after,
+*,
+*::before {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --accent-color: #7c3aed;
+}
+@layer components {
+  .hero__btn {
+    @apply px-6 py-4 rounded-full border border-[#242424] uppercase text-[10px] tracking-widest text-gray-400 hover:border-purple-400 hover:text-purple-500 font-semibold md:text-xs;
+  }
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+::-webkit-scrollbar {
+  width: 0.225rem;
 }
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #242424;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #7c3aed;
+}
+

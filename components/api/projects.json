@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Google Search Clone ",
+    "image": "https://github.com/UsamaBinKashif/peachy-assets/blob/main/Capture.PNG?raw=true",
+    "description": "Google Search Clone made with Google Custom API which gets real time results",
+    "tags": [
+      "React JS",
+      "Context-API",
+      "Tailwind CSS",
+      "Google API",
+      "Mobile Friendly"
+    ],
+    "source_code": "https://github.com/UsamaBinKashif/Google-Clone-2.0",
+    "demo": "https://google-clonev2.vercel.app/"
+  },
+  {
+    "id": 2,
+    "name": "WhatsApp Web Clone",
+    "image": "https://github.com/UsamaBinKashif/whatsapp-web-clone/raw/main/screenshots/ssd.PNG",
+    "description": "WhatsApp web clone with a group chat system and google authentication",
+    "tags": ["React JS", "SCSS", "Google-Auth", "Firebase", "Vite JS"],
+    "source_code": "https://github.com/UsamaBinKashif/whatsapp-web-clone",
+    "demo": "https://whatsapp-clone-ubk.firebaseapp.com/"
+  },
+  {
+    "id": 3,
+    "name": "LinkedIn Clone",
+    "image": "https://github.com/UsamaBinKashif/LinkedIn-Clone/raw/main/scrnli_7_8_2022_4-30-05%20PM.png",
+    "description": "LinkedIn clone with real time posts, signup and signin system.",
+    "tags": ["React JS", "Redux", "Material-UI", "Firebase", "Flip-Animations"],
+    "source_code": "https://github.com/UsamaBinKashif/LinkedIn-Clone",
+    "demo": "https://linkdin-clone-89763.web.app/"
+  },
+  {
+    "id": 4,
+    "name": "CLI Calculator",
+    "image": "https://imgur.com/4F3tsEX.png",
+    "description": "Simple CLI calculator which performs basic arthematic operations",
+    "tags": ["Node JS", "TypeScript", "Inquirer", "Chalk", "ORA Spinner", "Command-Line"],
+    "source_code": "https://github.com/UsamaBinKashif/basic-cli-calculator",
+    "demo": "https://www.npmjs.com/package/simple-calculator-cli"
+  }
+]

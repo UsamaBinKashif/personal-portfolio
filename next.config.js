@@ -2,6 +2,17 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-}
+  typescript: {
+    // !! WARN !!
+    // Dangerously allow production builds to successfully complete even if
+    // your project has type errors.
+    // !! WARN !!
+    ignoreBuildErrors: true,
+  },
+  images: {
+    domains: ["imgur.com","github.com"],
+  },
+  experimental: { esmExternals: true },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
