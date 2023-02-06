@@ -34,11 +34,11 @@
   },
   {
     "id": 4,
-    "name": "CLI Calculator",
-    "image": "https://imgur.com/4F3tsEX.png",
-    "description": "Simple CLI calculator which performs basic arthematic operations",
-    "tags": ["Node JS", "TypeScript", "Inquirer", "Chalk", "ORA Spinner", "Command-Line"],
-    "source_code": "https://github.com/UsamaBinKashif/basic-cli-calculator",
-    "demo": "https://www.npmjs.com/package/simple-calculator-cli"
+    "name": "Snapchat Clone",
+    "image": "./sc.png",
+    "description": "Snapchat clone with basic image catching and streak sending functionality",
+    "tags": ["React JS", "Google Auth", "Firebase", "React Web Cam"],
+    "source_code": "https://github.com/UsamaBinKashif/snapchat-clone",
+    "demo": "https://sc-clone-f9782.web.app/"
   }
 ]

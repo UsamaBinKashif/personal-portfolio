@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
+
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { About, Contact, Header, Hero, Portfolio, Skills } from "../components";
+import ArrowUpwardIcon from "@mui/icons-material/ArrowUpward";
 
 const Home: NextPage = () => {
   return (
@@ -28,15 +30,14 @@ const Home: NextPage = () => {
         <Hero />
       </section>
       {/* //HERO */}
-
       {/* ABOUT */}
-      <section id="about" className="snap-center">
+      <section id="about" className="snap-center ">
         <About />
       </section>
       {/* //ABOUT */}
 
       {/* Skills */}
-      <section id="skills" className="snap-center">
+      <section id="skills" className="snap-center ">
         <Skills />
       </section>
       {/* //Skills */}
@@ -50,7 +51,11 @@ const Home: NextPage = () => {
         <Contact />
       </section>
 
-    
+      <section>
+        <Link href="#hero">
+          <ArrowUpwardIcon className="  fixed top-[90%] right-[5%] bg-purple-600 rounded-full p-1 cursor-pointer  " />
+        </Link>
+      </section>
     </div>
   );
 };
