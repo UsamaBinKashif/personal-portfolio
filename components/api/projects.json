@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "id": 0,
     "name": "Google Search Clone ",
     "image": "https://github.com/UsamaBinKashif/peachy-assets/blob/main/Capture.PNG?raw=true",
     "description": "Google Search Clone made with Google Custom API which gets real time results",
@@ -13,6 +13,21 @@
     ],
     "source_code": "https://github.com/UsamaBinKashif/Google-Clone-2.0",
     "demo": "https://google-clonev2.vercel.app/"
+  },
+  {
+    "id": 1,
+    "name": "Peachy Rides",
+    "image": "https://github.com/UsamaBinKashif/peachy-assets/blob/main/scrnli_1_26_2023_8-39-57%20PM.png",
+    "description": "Final year project, car buying and selling.",
+    "tags": [
+      "React JS",
+      "Redux",
+      "Tailwind CSS",
+      "Firebase",
+      "Mobile Friendly"
+    ],
+    "source_code": "null",
+    "demo": "null"
   },
   {
     "id": 2,
@@ -35,7 +50,7 @@
   {
     "id": 4,
     "name": "Snapchat Clone",
-    "image": "./sc.png",
+    "image": "https://github.com/UsamaBinKashif/peachy-assets/blob/main/sc.png",
     "description": "Snapchat clone with basic image catching and streak sending functionality",
     "tags": ["React JS", "Google Auth", "Firebase", "React Web Cam"],
     "source_code": "https://github.com/UsamaBinKashif/snapchat-clone",
