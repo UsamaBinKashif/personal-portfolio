@@ -6,7 +6,7 @@ type Props = {};
 const Header = ({}: Props) => {
   const saveFile = () => {
     saveAs(
-      "https://github.com/UsamaBinKashif/peachy-assets/raw/main/Resume.pdf",
+      "https://github.com/UsamaBinKashif/peachy-assets/raw/main/Usama's%20Resume.pdf",
       "Resume.pdf"
     );
   };
